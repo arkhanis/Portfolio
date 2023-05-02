@@ -7,11 +7,11 @@
     --hue-color:270;
 
     /* HSL Color Mode */
-    --skin-color: hsl(37, 52%, 53%);
+    --skin-color: hsl(267, 95%, 76%);
     --title-color: hsl(var(--hue-color), 8%, 95%);
     --text-color: hsl(var(--hue-color), 8%, 85%);
-    --body-color: hsl(var(--hue-color), 19%, 10%);
-    --box-color: hsl(var(--hue-color), 14%, 10%);
+    --body-color: hsl(var(--hue-color), 19%, 5%);
+    --box-color: hsl(var(--hue-color), 14%, 20%);
     --scroll-bar-color: hsl(var(--hue-color), 12%, 38%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 26%);
 
@@ -305,7 +305,7 @@ input {
 
 .home__social-link {
     font-size: 1.5rem;
-    color: var(--text-color);
+    color: var(--skin-color);
     transition: .3s;
 }
 
@@ -1470,7 +1470,7 @@ textarea.input {
     }
 
     .home__social-link {
-        font-size: var(--normal-font-size);
+        font-size: 1.45rem;
     }
 
     .home__social-link:hover {
