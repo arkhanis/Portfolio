@@ -143,7 +143,7 @@ input {
     display: block;
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    color: var(--skin-color);
+    color: var(--skin-color-second);
 }
 
 /*=============== SIDEBAR ===============*/
@@ -371,7 +371,7 @@ input {
     display: inline-flex;
     align-items: center;
     column-gap: 0.5rem;
-    background-color: var(--skin-color);
+    background-image: linear-gradient(to right, var(--skin-color), var(--skin-color-second));
     color: var(--title-color);
     padding: 0.75rem 1.4rem;
     border-radius: 0.25rem;
@@ -387,7 +387,7 @@ input {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #343a40;
+    background-image: linear-gradient(to left, var(--skin-color), var(--skin-color-second));
     z-index: -1;
     transform-origin: center;
     transform: scale(0);
@@ -519,7 +519,7 @@ input {
     align-items: center;
     column-gap: 0.4rem;
     font-size: var(--small-font-size);
-    color: var(--skin-color);
+    color: var(--skin-color-second);
 }
 
 /*===== Skills Section =====*/
@@ -541,8 +541,8 @@ input {
 
 .skills__icon,
 .skills__arrow {
-    font-size: 2rem;
-    color: var(--skin-color);
+    font-size: 2.5rem;
+    color: var(--skin-color-second);
 }
 
 .skills__icon {
@@ -592,7 +592,7 @@ input {
 
 .skills__bar,
 .skills__percentage {
-    height: 5px;
+    height: 8px;
     border-radius: 0.25rem;
 }
 
@@ -602,7 +602,7 @@ input {
 
 .skills__percentage {
     display: block;
-    background-color: var(--skin-color);
+    background-color: var(--skin-color-second);
 }
 
 /*===== Work Section =====*/
@@ -651,7 +651,7 @@ input {
 }
 
 .work__button {
-    color: var(--skin-color);
+    color: var(--skin-color-second);
     font-size: var(--small-font-size);
     display: flex;
     align-items: center;
@@ -777,7 +777,7 @@ input {
 
 .services__icon {
     display: block;
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: var(--skin-color);
     margin-bottom: var(--mb-1);
 }
@@ -789,7 +789,7 @@ input {
 }
 
 .services__button {
-    color: var(--skin-color);
+    color: var(--skin-color-second);
     font-size: var(--small-font-size);
     display: flex;
     align-items: center;
@@ -798,7 +798,7 @@ input {
 }
 
 .services__button-icon {
-    font-size: 1rem;
+    font-size: 1.3rem;
     transition: 0.3s;
 }
 
@@ -1134,7 +1134,7 @@ textarea.input {
 }
 
 .footer__link:hover {
-    color: var(--skin-color);
+    color: var(--skin-color-second);
 }
 
 .footer__socials {
@@ -1147,7 +1147,7 @@ textarea.input {
 }
 
 .footer__social:hover {
-    color: var(--skin-color);
+    color: var(--skin-color-second);
 }
 
 .footer__copy {
@@ -1168,7 +1168,7 @@ textarea.input {
     position: fixed;
     right: 1rem;
     bottom: -30%;
-    background: var(--skin-color);
+    background: var(--skin-color-second);
     border-radius: 0.4rem;
     display: inline-flex;
     padding: 0.25rem;
