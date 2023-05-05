@@ -473,6 +473,15 @@ input {
     margin-bottom: var(--mb-2-5);
 }
 
+.timeline__item h3{
+    font-size: 1.2rem;
+    color: var(--skin-color-second);
+}
+
+.timeline__item span{
+    color: var(--body-font);
+}
+
 .timeline__item:last-child {
     margin-bottom: 0;
 }
@@ -539,10 +548,13 @@ input {
     margin-bottom: var(--mb-2-5);
 }
 
-.skills__icon,
-.skills__arrow {
+.skills__icon{
     font-size: 2.5rem;
     color: var(--skin-color-second);
+}
+.skills__arrow {
+    font-size: 2.5rem;
+    color: var(--skin-color);
 }
 
 .skills__icon {
@@ -602,7 +614,7 @@ input {
 
 .skills__percentage {
     display: block;
-    background-color: var(--skin-color-second);
+    background-color: var(--skin-color);
 }
 
 /*===== Work Section =====*/
@@ -1121,6 +1133,10 @@ textarea.input {
 .footer__title {
     font-size: 2rem;
     margin-bottom: var(--mb-0-25);
+}
+
+.identity{
+    height: 60px;
 }
 
 .footer__subtitle {
