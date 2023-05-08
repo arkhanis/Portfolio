@@ -15,7 +15,6 @@
     --box-color: #292929;
     --scroll-bar-color: #191919;
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 56%);
-    --span-color: #cf6679;
 
     /*===== Font and Typography =====*/
     --body-font: "Poppins", sans-serif;
@@ -742,9 +741,18 @@ input {
 }
 
 .details__title {
-    font-size: var(--h3-font-size);
+    font-size: var(--h4-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1);
+    color: var(--skin-color-second);
+}
+
+.title_portfolio h2{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--mb-1);
+    color: var(--body-font);
+
 }
 
 .details__description {
@@ -754,7 +762,6 @@ input {
 
 .details__info li {
     margin-bottom: var(--mb-0-75);
-    text-transform: capitalize;
     font-size: var(--small-font-size);
 }
 
@@ -763,9 +770,8 @@ input {
 }
 
 .details__info li span {
-    font-weight: normal;
-    font-size: var(--span-size);
-    color: var(--span-color);
+    font-weight: var(--font-bold);
+    color: var(--skin-color);
 }
 
 .details__info li a {
@@ -1377,7 +1383,7 @@ textarea.input {
 /* For Medium Devices */
 @media screen and (max-width: 768px) {
     .about__img {
-        width: 250px;
+        width: 350px;
     }
 
     .qualification__container {
@@ -1544,7 +1550,7 @@ textarea.input {
     }
 
     .home__img {
-        width: 200px;
+        width: 300px;
     }
 
     .home__title {
